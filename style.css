@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #ecf2f8;
+  height: 100vh;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: white; }
+
+main {
+  display: flex;
+  justify-content: center; }
+
+.container {
+  min-width: 350px;
+  max-width: 1400px;
+  height: 100%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-rows: auto;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  gap: 20px; }
+
+.card {
+  width: 350px;
+  min-height: 200px;
+  padding: 20px 40px 30px 40px;
+  border-radius: 10px; }
+
+.person {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px 15px 0px;
+  align-items: center; }
+
+.daniel {
+  background-color: #7541c8; }
+
+.jonathan {
+  background-color: #48556a; }
+
+.jeanette,
+.kira {
+  background-color: white;
+  color: #48556a; }
+
+.patrick {
+  background-color: #19212e; }
+
+.person__img {
+  border-radius: 50%;
+  height: 30px;
+  border: 2px solid #cccccc; }
+
+.person__data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px; }
+
+.person__name {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1.2px; }
+
+.person__status {
+  font-weight: 500;
+  color: #cccccc;
+  font-size: 12px; }
+
+.card__text--upper {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  opacity: 0.8; }
+
+.card__text--lower {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  opacity: 0.6; }
+
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+
+.attribution {
+  color: #3e52a3; }
+
+/*# sourceMappingURL=style.css.map */
