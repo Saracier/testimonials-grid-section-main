@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![small-img](small-img.jpg)
-![big-img](big-img.jpg)
+![small-img](small-img.JPG)
+![big-img](big-img.JPG)
 
 ### Links
 
