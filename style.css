@@ -20,7 +20,7 @@ main {
   height: 100%;
   padding: 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-rows: auto;
   justify-content: center;
   justify-items: center;
@@ -37,6 +37,7 @@ svg {
   position: relative;
   margin: -50px;
   right: -250px;
+  top: 20px;
   fill: #9368d9; }
 
 .person {
@@ -99,7 +100,7 @@ svg {
 .attribution {
   color: #3e52a3; }
 
-@media screen and (min-width: 1530px) {
+@media screen and (min-width: 1400px) {
   main {
     align-items: center;
     height: 100%; }
